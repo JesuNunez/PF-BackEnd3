@@ -1,4 +1,4 @@
-https://hub.docker.com/repository/docker/coderhouse70120/proyecto-final
+https://hub.docker.com/u/jesusnu
 
 # Proyecto de Adopciones
 
@@ -35,7 +35,7 @@ Este proyecto permite gestionar adopciones de mascotas. A continuación se descr
    ```bash
    npm start
    ```
-3. Acceder a `http://localhost:3000` en tu navegador.
+3. Acceder a `http://localhost:8080` en tu navegador.
 
 ### Dockerización
 1. Construir la imagen de Docker:
@@ -45,9 +45,9 @@ Este proyecto permite gestionar adopciones de mascotas. A continuación se descr
 
 2. Ejecutar el contenedor:
    ```bash
-   docker run -p 3000:3000 adopciones
+   docker run -p 8080:8080 adopciones
    ```
-3. Acceder a `http://localhost:3000` en tu navegador.
+3. Acceder a `http://localhost:8080` en tu navegador.
 
 ## Pruebas
 Para ejecutar las pruebas funcionales:
